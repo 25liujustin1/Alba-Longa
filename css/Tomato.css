@@ -1,0 +1,22 @@
+body {
+    background-color: aquamarine;
+}
+
+
+/* #flower3 {
+    border-color: #f26c13;
+    border-width: 20px;
+    border-radius: 2px;
+    border-style: ridge;
+    width: 300px;
+    display: block;
+} */
+
+.style1 {
+    border-color: #f26c13;
+    border-width: 20px;
+    border-radius: 2px;
+    border-style: dashed;
+    width: 300px;
+    display: block;
+}
