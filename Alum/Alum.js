@@ -30,3 +30,10 @@ document.body.addEventListener('keypress', function(event) {
         }
     }
 }, true);
+
+let music = document.querySelector('audio');
+music.addEventListener('keydown', function(key) {
+    if (key.keyCode === 13) {
+        music.play();
+    };
+});
