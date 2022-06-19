@@ -31,8 +31,16 @@ document.body.addEventListener('keypress', function(event) {
     }
 }, true);
 
-document.addEventListener('keydown', function(e) {
-    if (e.keyCode == 13) {
-        document.getElementById('audio').play();
-    }
+// document.addEventListener('keydown', function(e) {
+//     if (e.keyCode == 13) {
+//         document.getElementById('audio').play();
+//     }
+// });
+let music = document.querySelector('audio');
+music.addEventListener('keydown', function(key) {
+    if (key.keyCode === 13) {
+        music.play();
+        console.log('music is playing');
+    };
+    console.log('this function has been run.');
 });
