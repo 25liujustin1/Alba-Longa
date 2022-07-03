@@ -1,0 +1,39 @@
+/* #Begin {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 22.5px;
+}
+
+#img1 {
+    float: left;
+    width: 75px;
+    height: 75px;
+} */
+
+#Begin {
+    background-image: url(https://www.awards-engraving.com/wp-content/uploads/2020/12/Rectangle-515.png);
+    padding: 10px;
+}
+
+h1 {
+    position: absolute;
+    top: 40px;
+    left: 250px;
+}
+
+#img1 {
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    width: 75px;
+    height: 75px;
+}
+
+#img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    margin-top: 40px;
+}
